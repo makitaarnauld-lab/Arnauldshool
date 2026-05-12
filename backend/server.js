@@ -21,9 +21,7 @@ const server = http.createServer(app);
 app.get("/", (req, res) => {
     res.send("🚀 ArnauldSchool API fonctionne sur Render !");
 });
-app.get("/", (req, res) => {
-    res.send("🚀 ArnauldSchool API fonctionne correctement !");
-});
+
 
 // ===============================
 // SOCKET IO
